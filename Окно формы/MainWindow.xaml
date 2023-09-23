@@ -1,0 +1,14 @@
+﻿<Window x:Class="Окно_формы.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Окно_формы"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="427" Width="700">
+    <Grid>
+        <Label Background="#FF4C4C4C" FontSize="20" Content="MARATHON SKILLS 2023. Россия, Москва. 26 августа 2023 г." Padding="100,0,0,0" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" Height="127" Width="700" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+        <Button x:Name="button_becomeSponsor" Click="button_becomeSponsor_Click" Content="Я хочу стать спонсором бегуна" FontSize="30" Margin="0,206,0,0" VerticalAlignment="Top" Height="92" HorizontalAlignment="Center"/>
+
+    </Grid>
+</Window>
